@@ -163,6 +163,10 @@ export function virtualRender({
   const postUpdate3 = _debounce(110, _draw)
   const postUpdate4 = _debounce(130, _draw)
   const postUpdate5 = _debounce(150, _draw)
+  const postUpdate5 = _debounce(200, _draw)
+  const postUpdate5 = _debounce(280, _draw)
+  const postUpdate5 = _debounce(600, _draw)
+  const postUpdate5 = _debounce(1200, _draw)
 
   return function update(xRange, yRange, redraw = true) {
     lastXRange = xRange
