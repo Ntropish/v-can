@@ -1,6 +1,6 @@
 {
   "name": "v-can",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "A virtual canvas for efficient rendering",
   "main": "index.js",
