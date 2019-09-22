@@ -5,7 +5,7 @@ export function virtualRender({
   fadeIn = 120,
   fadeStrength = 0.4,
 }) {
-  const overdraw = 2
+  const overdraw = 0.6
 
   const ctx = canvas.getContext('2d', { alpha: true })
 
